@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #323232;
+}
+a {
+    color: #adadad;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+.nav ul li a {
+    color: rgb(190, 190, 190);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #000000;
+    border: 1px solid #000;
+    box-shadow: 0 5px 10px rgb(88 86 86);
+    color: #bdbdbd;
+    padding: 20px;
+}
+.container_card {
+    display: flex;
+    align-items: center;
+}
+.img_card img {
+    height: 353px;
+}
+.precio_card p {
+    text-align: justify;
+    font-size: 18px;
+    FONT-WEIGHT: 900;
+}
+.sponsor {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.sponsor img {
+    width: 120px;
+    box-shadow: 0 5px 10px rgb(88 86 86);
+    margin-top: 20px;
+}
+.genero p {
+    font-size: 18px;
+    FONT-WEIGHT: 900;
+}
+.sponsor p {
+    color: #16e3e3;
+}
+.card h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.title_card p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenedor_text {
+    padding: 10px 10px 10px 25px;
+}
+.img_card {
+    padding: 15px;
+    background: #222121;
+    box-shadow: 0 5px 10px rgb(88 86 86);
+}
+.stars img {
+    height: 30px;
+}
+
+.amazon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    padding-left: 0;
+}
+.genero {
+    padding: 20px;
+    padding-left: 0;
+}
+.title_card {
+    margin-bottom: 10px;
+}
+.amazon img {
+    width: 70px;
+}
+.amazon span {
+    margin-left: 10px;
+}
+
+.btn_card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+.btn_card a {
+    padding: 10px;
+    text-decoration: none;
+    color: #bbbbbb;
+    FONT-WEIGHT: 900;
+    background: #242423;
+    text-align: center;
+    box-shadow: 0 5px 10px rgb(88 86 86);
+    font-size: 12px;
+}
+
+.amazon a {
+    padding: 10px;
+    background: #e6f31d;
+    color: #000;
+    text-decoration: none;
+    FONT-WEIGHT: 900;
+    margin-left: 70px;
+    box-shadow: 0 5px 10px rgb(88 86 86);
+}
+
+.btn_card span img {
+    height: 30px;
+}
+.btn_card span {
+    margin-top: -90px;
+    margin-left: 80px;
+}
+
+.es, .in, .fr, .al, .it, .br {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon_banderas {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.banner img {
+    width: 90%;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #adadad;
+}
+.redes {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(190, 190, 190);
+}
+.redes i {
+    font-size: 20px;
+}
+.redes img {
+    height: 20px;
+}
+footer p {
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 850px) {
+    .card h2 {
+        font-size: 35px;
+    }
+    .title_card p {
+        font-size: 10px;
+    }
+    .precio_card p {
+        font-size: 13px;
+    }
+    .genero p {
+        font-size: 13px;
+    }
+    .sponsor img {
+        width: 100px;
+        margin-top: 0px;
+    }
+    .icon_banderas {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .btn_card a {
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn_card a {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .card h2 {
+        font-size: 25px;
+    }
+    .img_card img {
+        height: 250px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container_card {
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .amazon {
+        justify-content: center;
+    }
+    .sponsor {
+        justify-content: center;
+    }
+    .btn_card {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .amazon a {
+        margin-left: 30px;
+    }
+}
