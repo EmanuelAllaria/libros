@@ -248,3 +248,9 @@ footer p {
         margin-left: 30px;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .nav ul {
+        font-size: 12px;
+    }
+}
